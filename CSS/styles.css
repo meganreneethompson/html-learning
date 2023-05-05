@@ -1,13 +1,7 @@
-
 .box {
-width: 200px;
-height: 200px;
-width: 600px;
-height: 200px;
-  background: linear-gradient(to bottom right, red, purple, salmon, yellow, rgb(231, 227, 134));
-  border: 10px dotted black;
-  border-top: 20px solid black;
-  border-radius: 100%;
-  box-shadow: -10px 10px 10px green;
-}
+  width: 300px;
+  height: 300px;
+background-color: rgb(255, 247, 131);
+  border: 30px pink groove;
 
+  } 
