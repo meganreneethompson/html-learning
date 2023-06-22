@@ -1,38 +1,87 @@
+html {
+    font-size: 62.5%;
+  }
+
 body {
 
-    margin: 10px;
+
+    margin: 20px;
     font-family: "open sans", Arial, Helvetica, sans-serif
     font-size: 1rem;
     letter-spacing: 1px;
-  
     
 }
 
 h1 {
-    font-family:Roboto, Arial, Helvetica, sans-serif
+    font-family: Roboto, Arial, Helvetica, sans-serif
     font-size: 2rem;
     margin: 3rem 0 1rem;
     line-height: 1.5;
+    margin-top: 2rem;
 
-    
 }
 
-image {
 
-   width: 50px;
-   height: 50px;
-   padding: 10px;
-}
-
+.ellafood {
+    width:100%;
+   
+  }
 @media screen and (min-width: 400px) {
     html {
 font-size: 130%;}
 }
 
+.p1 {
+    width: 50ch;
+    text-align: left;
+    padding: 2px;
+
+}
 p {
 
     width: 50ch;
     text-align: left;
+    column-count: 2;
 
 
 }
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    border: 5px solid black;
+    padding: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+ 
+  
+  .rating {
+    display: inline-block;
+    font-size: 24px;
+    padding: 10px;
+    
+  }
+  
+  .star {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: gold;
+    margin-left: auto;
+    clip-path: polygon(
+      50% 0%,
+      61% 35%,
+      98% 35%,
+      68% 57%,
+      79% 91%,
+      50% 70%,
+      21% 91%,
+      32% 57%,
+      2% 35%,
+      39% 35%
+    );
+  }
+  
+ 
